@@ -19,8 +19,7 @@ public class ActivateSections : MonoBehaviour
         activatingTurn += 1;
 
         if (activatingTurn >= 1)
-        {
-            // wantedSection.SetActive(true);
+        {            
             activatingTurn = 0;
 
             foreach (GameObject wantedObject in wantedSectionsList)
